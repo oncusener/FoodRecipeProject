@@ -18,7 +18,6 @@ const App = () => {
   const getRecipes = async () => {
     const data = await (await fetch(exampleReq)).json();
     setRecipes(data.hits);
-    console.log(data.hits);
   };
 
   const updateSearch = e => {
