@@ -1,32 +1,41 @@
-.App {
-  text-align: center;
-  min-height: 100vh;
-  background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
+.card {
+  margin: 0 auto;
 }
 
-form {
-  padding: 100px;
-}
-
-body {
-  background-color: white;
-}
-.listone {
-  list-style-type: none;
-}
-
-.search-form {
-  min-height: 10vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.recipes {
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
+.col-md-8 {
+  margin: 0 auto;
+  padding: 10%;
 }
 .btn {
-  color: white;
+  width: 125px;
+}
+.btn:hover {
+  color: black;
+  width: 125px;
+}
+.container {
+  width: 500px;
+  height: 500px;
+  margin-top: -80px;
+}
+.weatherimage {
+  margin-left: 40%;
+  margin-top: -30%;
+  float: left;
+  display: block;
+}
+.card {
+  width: 586px;
+  height: 550px;
+  margin-left: -60px;
+  -webkit-box-shadow: 5px 5px 15px 10px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 5px 5px 15px 10px rgba(0, 0, 0, 0.75);
+  box-shadow: 5px 5px 15px 10px rgba(0, 0, 0, 0.75);
+  border-radius: 20px;
+}
+.imageicon {
+  width: 64px;
+  height: 56px;
+  margin-left: 45%;
+  padding-top: 5px;
 }
